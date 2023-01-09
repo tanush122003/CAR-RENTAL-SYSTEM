@@ -63,3 +63,28 @@ class car
                 carname = "Ferrari F8 Tributo";
                 carno = "MH 12 RN 1289";
                 break;
+            case 5:
+                carname = "Lamborghini Huracan Evo";
+                carno = "03D 153874H";
+                break;
+            case 6:
+                carname = "Ferrari 812 GTS";
+                carno = "HR 26 TC 7174";
+                break;
+            case 7:
+                carname = "Maserati MC20";
+                carno = "TS 07 D TR 2020";
+                break;
+            case 8:
+                carname = "Audi R8";
+                carno = "KA 08 J 9192";
+                break;
+            case 9:
+                carname = "Ford GT";
+                carno = "MH 12 RN 1289";
+                break;
+            case 10:
+                carname = "Aston Martin DBS Superleggera";
+                carno = "MH 12 RN 1289";
+                break;
+        }
