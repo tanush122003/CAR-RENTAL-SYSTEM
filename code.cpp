@@ -169,4 +169,12 @@ class Invoice : public customer,public car
         cout<<"\033[1;35m"<<"                                               ////////////////////////////////////////////////////////////////////////////////////\n";
     }
 };
-
+int main()
+{
+    Invoice i;
+    i.customerdetails();
+    i.carmodels();
+    i.cardetails();
+    i.generate();
+    return 0;
+}
