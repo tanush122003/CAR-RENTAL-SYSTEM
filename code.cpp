@@ -36,3 +36,30 @@ class customer
         }
     }
 };
+class car
+{
+    public : string carname,carno;
+             int x,petrol,advchar;
+    void cardetails()
+    {
+        cout<<"\033[1;36m"<<"\nSELECT THE CAR YOU WANT TO RENT : ";
+        cout<<"\033[1;31m";
+        cin>>x;
+        switch(x)
+        {
+            case 1:
+                carname = "Ferrari 296 GTB";
+                carno = "TN 75 AA 7106";
+                break;
+            case 2:
+                carname = "McLaren 765LT";
+                carno = "AP 21 BP 7331";
+                break;
+            case 3:
+                carname = "Porsche 911 GT3";
+                carno = "UP 19 D 0343";
+                break;
+            case 4:
+                carname = "Ferrari F8 Tributo";
+                carno = "MH 12 RN 1289";
+                break;
