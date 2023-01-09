@@ -133,3 +133,23 @@ class rent
             cout<<"Total amount to be Paid : "<<560+c;
         }
     }
+    void per_hr()
+    { 
+        int hr;
+        cout<<"Enter Time in Hours : ";
+        cin>>hr;
+        if(hr<=12)
+        {
+            cout<<"Total amount to be Paid : "<<hr*250;
+        }
+        else if(hr<=24&&hr>12)
+        {
+            cout<<"Total amount to be Paid : "<<(hr/12)*2500;
+        }
+        else 
+        {
+            cout<<"Total amount to be Paid : "<<(hr/24)*4000;
+        }
+    }
+};
+
