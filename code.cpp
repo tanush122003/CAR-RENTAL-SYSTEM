@@ -88,3 +88,10 @@ class car
                 carno = "MH 12 RN 1289";
                 break;
         }
+         cout<<"\033[1;34m"<<"\nENTER PETROL CHARGES (ENTER 0 FOR NO CHARGES) : ";
+        cout<<"\033[1;31m";
+        cin>>petrol;
+        cout<<"\033[1;34m"<<"\nENTER ADVANCE CHARGES (ENTER 0 FOR NO CHARGES) : ";
+        cout<<"\033[1;31m";
+        cin>>advchar;
+    }
