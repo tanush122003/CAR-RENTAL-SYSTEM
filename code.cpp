@@ -110,3 +110,26 @@ class car
         cout<<"\033[1;31m"<<"10. "<<"\033[1;35m"<<"Aston Martin DBS Superleggera"<<endl;
     }
 };
+class rent
+{
+    void per_km ()
+    {
+        int a,c,b,km;
+        cout<<"Enter Distance in KM : ";
+        cin>>km;
+        a=km*7;
+        b=(km-30)*6;
+        c=(km-100)*5;
+        if(km<=30)
+        {
+            cout<<"Total amount to be Paid : "<<a;
+        }
+        else if(km<=100&&km>30)
+        {
+            cout<<"Total amount to be Paid : "<<210+b;
+        }
+        else 
+        {
+            cout<<"Total amount to be Paid : "<<560+c;
+        }
+    }
