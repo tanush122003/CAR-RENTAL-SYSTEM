@@ -88,10 +88,25 @@ class car
                 carno = "MH 12 RN 1289";
                 break;
         }
-         cout<<"\033[1;34m"<<"\nENTER PETROL CHARGES (ENTER 0 FOR NO CHARGES) : ";
+        cout<<"\033[1;34m"<<"\nENTER PETROL CHARGES (ENTER 0 FOR NO CHARGES) : ";
         cout<<"\033[1;31m";
         cin>>petrol;
         cout<<"\033[1;34m"<<"\nENTER ADVANCE CHARGES (ENTER 0 FOR NO CHARGES) : ";
         cout<<"\033[1;31m";
         cin>>advchar;
     }
+    void carmodels()
+    {
+        cout<<"\033[1;33m"<<"\nCAR MODELS AVAILABLE : \n";
+        cout<<"\033[1;31m"<<"1. "<<"\033[1;35m"<<"Ferrari 296 GTB"<<endl;
+        cout<<"\033[1;31m"<<"2. "<<"\033[1;35m"<<"McLaren 765LT"<<endl;
+        cout<<"\033[1;31m"<<"3. "<<"\033[1;35m"<<"Porsche 911 GT3"<<endl;
+        cout<<"\033[1;31m"<<"4. "<<"\033[1;35m"<<"Ferrari F8 Tributo"<<endl;
+        cout<<"\033[1;31m"<<"5. "<<"\033[1;35m"<<"Lamborghini Huracan Evo"<<endl;
+        cout<<"\033[1;31m"<<"6. "<<"\033[1;35m"<<"Ferrari 812 GTS"<<endl;
+        cout<<"\033[1;31m"<<"7. "<<"\033[1;35m"<<"Maserati MC20"<<endl;
+        cout<<"\033[1;31m"<<"8. "<<"\033[1;35m"<<"Audi R8"<<endl;
+        cout<<"\033[1;31m"<<"9. "<<"\033[1;35m"<<"Ford GT"<<endl;
+        cout<<"\033[1;31m"<<"10. "<<"\033[1;35m"<<"Aston Martin DBS Superleggera"<<endl;
+    }
+};
